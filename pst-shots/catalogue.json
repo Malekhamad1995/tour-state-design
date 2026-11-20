@@ -1,0 +1,1967 @@
+{
+ "builtOn": "2026-11-19",
+ "counts": {
+  "guest": {
+   "screens": 38,
+   "cases": 110,
+   "images": 220
+  },
+  "traveller": {
+   "screens": 31,
+   "cases": 122,
+   "images": 244
+  },
+  "crew": {
+   "screens": 10,
+   "cases": 35,
+   "images": 70
+  }
+ },
+ "total": {
+  "screens": 79,
+  "cases": 267,
+  "images": 534
+ },
+ "tree": [
+  {
+   "role": "guest",
+   "sections": [
+    {
+     "title": "First launch",
+     "screens": [
+      {
+       "title": "Landing (intro video)",
+       "route": "/onboarding",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/guest/en/001-landing.jpg",
+         "ar": "shots/guest/ar/001-landing.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Tour choice (ready-made or own tour)",
+       "route": "/tour-choice",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/guest/en/002-tour-choice.jpg",
+         "ar": "shots/guest/ar/002-tour-choice.jpg"
+        }
+       ]
+      },
+      {
+       "title": "App-wide loading",
+       "route": "/loading",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/guest/en/003-loading.jpg",
+         "ar": "shots/guest/ar/003-loading.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Loading skeleton",
+       "route": "/skeleton?variant=home",
+       "cases": [
+        {
+         "kase": "Variant: home",
+         "en": "shots/guest/en/004-skeleton-home.jpg",
+         "ar": "shots/guest/ar/004-skeleton-home.jpg"
+        },
+        {
+         "kase": "Variant: explore",
+         "en": "shots/guest/en/005-skeleton-explore.jpg",
+         "ar": "shots/guest/ar/005-skeleton-explore.jpg"
+        },
+        {
+         "kase": "Variant: tourDetails",
+         "en": "shots/guest/en/006-skeleton-tourDetails.jpg",
+         "ar": "shots/guest/ar/006-skeleton-tourDetails.jpg"
+        },
+        {
+         "kase": "Variant: developers",
+         "en": "shots/guest/en/007-skeleton-developers.jpg",
+         "ar": "shots/guest/ar/007-skeleton-developers.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Page not found",
+       "route": "/this-address-does-not-exist",
+       "cases": [
+        {
+         "kase": "Unknown address",
+         "en": "shots/guest/en/008-not-found.jpg",
+         "ar": "shots/guest/ar/008-not-found.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Walkthrough — step 1 of 4",
+       "route": "/onboarding/questions",
+       "cases": [
+        {
+         "kase": "First launch",
+         "en": "shots/guest/en/001-walk-1.jpg",
+         "ar": "shots/guest/ar/001-walk-1.jpg"
+        },
+        {
+         "kase": "Step 2 of 4",
+         "en": "shots/guest/en/001-walk-1-step2.jpg",
+         "ar": "shots/guest/ar/001-walk-1-step2.jpg"
+        },
+        {
+         "kase": "Step 3 of 4",
+         "en": "shots/guest/en/001-walk-1-step3.jpg",
+         "ar": "shots/guest/ar/001-walk-1-step3.jpg"
+        },
+        {
+         "kase": "Step 4 of 4",
+         "en": "shots/guest/en/001-walk-1-step4.jpg",
+         "ar": "shots/guest/ar/001-walk-1-step4.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Welcome sheet",
+       "route": "/welcome",
+       "cases": [
+        {
+         "kase": "Create an account / guest / sign in",
+         "en": "shots/guest/en/002-welcome.jpg",
+         "ar": "shots/guest/ar/002-welcome.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Splash (animated intro)",
+       "route": null,
+       "cases": [
+        {
+         "kase": "≈ 3 s after launch",
+         "en": "shots/guest/en/601-splash.jpg",
+         "ar": "shots/guest/ar/601-splash.jpg"
+        },
+        {
+         "kase": "≈ 4.5 s",
+         "en": "shots/guest/en/601-splash-f2.jpg",
+         "ar": "shots/guest/ar/601-splash-f2.jpg"
+        },
+        {
+         "kase": "≈ 6 s",
+         "en": "shots/guest/en/601-splash-f3.jpg",
+         "ar": "shots/guest/ar/601-splash-f3.jpg"
+        },
+        {
+         "kase": "≈ 8 s",
+         "en": "shots/guest/en/601-splash-f4.jpg",
+         "ar": "shots/guest/ar/601-splash-f4.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Account: sign in, sign up, password",
+     "screens": [
+      {
+       "title": "Sign in",
+       "route": "/sign-in",
+       "cases": [
+        {
+         "kase": "Empty",
+         "en": "shots/guest/en/041-sign-in.jpg",
+         "ar": "shots/guest/ar/041-sign-in.jpg"
+        },
+        {
+         "kase": "Empty · scrolled 1",
+         "en": "shots/guest/en/041-sign-in-s1.jpg",
+         "ar": "shots/guest/ar/041-sign-in-s1.jpg"
+        },
+        {
+         "kase": "Both fields filled — button ready",
+         "en": "shots/guest/en/003-signin-filled.jpg",
+         "ar": "shots/guest/ar/003-signin-filled.jpg"
+        },
+        {
+         "kase": "Not an email address",
+         "en": "shots/guest/en/004-signin-bad-email.jpg",
+         "ar": "shots/guest/ar/004-signin-bad-email.jpg"
+        },
+        {
+         "kase": "Wrong email or password (refused)",
+         "en": "shots/guest/en/005-signin-wrong.jpg",
+         "ar": "shots/guest/ar/005-signin-wrong.jpg"
+        },
+        {
+         "kase": "No connection",
+         "en": "shots/guest/en/006-signin-offline.jpg",
+         "ar": "shots/guest/ar/006-signin-offline.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Sign up",
+       "route": "/sign-up",
+       "cases": [
+        {
+         "kase": "Empty",
+         "en": "shots/guest/en/042-sign-up.jpg",
+         "ar": "shots/guest/ar/042-sign-up.jpg"
+        },
+        {
+         "kase": "Empty · scrolled 1",
+         "en": "shots/guest/en/042-sign-up-s1.jpg",
+         "ar": "shots/guest/ar/042-sign-up-s1.jpg"
+        },
+        {
+         "kase": "Password too weak (rule list reacts)",
+         "en": "shots/guest/en/009-signup-weak.jpg",
+         "ar": "shots/guest/ar/009-signup-weak.jpg"
+        },
+        {
+         "kase": "Not an email address",
+         "en": "shots/guest/en/010-signup-bad-email.jpg",
+         "ar": "shots/guest/ar/010-signup-bad-email.jpg"
+        },
+        {
+         "kase": "All fields valid",
+         "en": "shots/guest/en/011-signup-filled.jpg",
+         "ar": "shots/guest/ar/011-signup-filled.jpg"
+        },
+        {
+         "kase": "All fields valid · scrolled 1",
+         "en": "shots/guest/en/011-signup-filled-s1.jpg",
+         "ar": "shots/guest/ar/011-signup-filled-s1.jpg"
+        },
+        {
+         "kase": "Email already registered (refused)",
+         "en": "shots/guest/en/013-signup-taken.jpg",
+         "ar": "shots/guest/ar/013-signup-taken.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Forgot password",
+       "route": "/forgot-password",
+       "cases": [
+        {
+         "kase": "Empty",
+         "en": "shots/guest/en/043-forgot.jpg",
+         "ar": "shots/guest/ar/043-forgot.jpg"
+        },
+        {
+         "kase": "Not an email address",
+         "en": "shots/guest/en/014-forgot-bad-email.jpg",
+         "ar": "shots/guest/ar/014-forgot-bad-email.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Crew sign-in — code step",
+       "route": "/sign-in",
+       "cases": [
+        {
+         "kase": "A guide or driver: password accepted, code asked",
+         "en": "shots/guest/en/008-signin-staff-otp.jpg",
+         "ar": "shots/guest/ar/008-signin-staff-otp.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Account verification",
+       "route": "/sign-in",
+       "cases": [
+        {
+         "kase": "Signed in with an address that was never verified (code sent, none shown)",
+         "en": "shots/guest/en/701-signin-unverified.jpg",
+         "ar": "shots/guest/ar/701-signin-unverified.jpg"
+        },
+        {
+         "kase": "Wrong code typed",
+         "en": "shots/guest/en/701-signin-unverified-wrong-code.jpg",
+         "ar": "shots/guest/ar/701-signin-unverified-wrong-code.jpg"
+        },
+        {
+         "kase": "Code sent after registering (code pre-filled in this test build)",
+         "en": "shots/guest/en/012-signup-verify.jpg",
+         "ar": "shots/guest/ar/012-signup-verify.jpg"
+        },
+        {
+         "kase": "Wrong code (refused)",
+         "en": "shots/guest/en/012-signup-verify-wrong.jpg",
+         "ar": "shots/guest/ar/012-signup-verify-wrong.jpg"
+        },
+        {
+         "kase": "Right code — account verified",
+         "en": "shots/guest/en/012-signup-verify-ok.jpg",
+         "ar": "shots/guest/ar/012-signup-verify-ok.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Check your email",
+       "route": "/forgot-password",
+       "cases": [
+        {
+         "kase": "Code sent — enter it",
+         "en": "shots/guest/en/015-forgot-check-email.jpg",
+         "ar": "shots/guest/ar/015-forgot-check-email.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Home & the catalogue",
+     "screens": [
+      {
+       "title": "Home",
+       "route": "/home",
+       "cases": [
+        {
+         "kase": "Filled",
+         "en": "shots/guest/en/009-home.jpg",
+         "ar": "shots/guest/ar/009-home.jpg"
+        },
+        {
+         "kase": "Filled · scrolled 1",
+         "en": "shots/guest/en/009-home-s1.jpg",
+         "ar": "shots/guest/ar/009-home-s1.jpg"
+        },
+        {
+         "kase": "Filled · scrolled 2",
+         "en": "shots/guest/en/009-home-s2.jpg",
+         "ar": "shots/guest/ar/009-home-s2.jpg"
+        },
+        {
+         "kase": "Filled · scrolled 3",
+         "en": "shots/guest/en/009-home-s3.jpg",
+         "ar": "shots/guest/ar/009-home-s3.jpg"
+        },
+        {
+         "kase": "Loading (skeleton)",
+         "en": "shots/guest/en/010-home-loading.jpg",
+         "ar": "shots/guest/ar/010-home-loading.jpg"
+        },
+        {
+         "kase": "Empty (no tours published)",
+         "en": "shots/guest/en/011-home-empty.jpg",
+         "ar": "shots/guest/ar/011-home-empty.jpg"
+        },
+        {
+         "kase": "Failed (server unreachable)",
+         "en": "shots/guest/en/012-home-error.jpg",
+         "ar": "shots/guest/ar/012-home-error.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Home on one emirate",
+       "route": "/home?destination=Dubai",
+       "cases": [
+        {
+         "kase": "Filtered to Dubai",
+         "en": "shots/guest/en/013-home-dubai.jpg",
+         "ar": "shots/guest/ar/013-home-dubai.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Search",
+       "route": "/search",
+       "cases": [
+        {
+         "kase": "Default (before typing)",
+         "en": "shots/guest/en/014-search.jpg",
+         "ar": "shots/guest/ar/014-search.jpg"
+        },
+        {
+         "kase": "Typed “burj” — results",
+         "en": "shots/guest/en/602-search-results.jpg",
+         "ar": "shots/guest/ar/602-search-results.jpg"
+        },
+        {
+         "kase": "Typed something with no match",
+         "en": "shots/guest/en/603-search-none.jpg",
+         "ar": "shots/guest/ar/603-search-none.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Tours map",
+       "route": "/tours-map",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/guest/en/015-tours-map.jpg",
+         "ar": "shots/guest/ar/015-tours-map.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Side menu",
+       "route": "/home",
+       "cases": [
+        {
+         "kase": "Signed out (sign in / create account)",
+         "en": "shots/guest/en/801-menu-guest.jpg",
+         "ar": "shots/guest/ar/801-menu-guest.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "One tour",
+     "screens": [
+      {
+       "title": "Tour details",
+       "route": "/tour-details/qasr-al-watan-royal-journey",
+       "cases": [
+        {
+         "kase": "Bookable, with reviews",
+         "en": "shots/guest/en/016-tour.jpg",
+         "ar": "shots/guest/ar/016-tour.jpg"
+        },
+        {
+         "kase": "Bookable, with reviews · scrolled 1",
+         "en": "shots/guest/en/016-tour-s1.jpg",
+         "ar": "shots/guest/ar/016-tour-s1.jpg"
+        },
+        {
+         "kase": "Bookable, with reviews · scrolled 2",
+         "en": "shots/guest/en/016-tour-s2.jpg",
+         "ar": "shots/guest/ar/016-tour-s2.jpg"
+        },
+        {
+         "kase": "Bookable, with reviews · scrolled 3",
+         "en": "shots/guest/en/016-tour-s3.jpg",
+         "ar": "shots/guest/ar/016-tour-s3.jpg"
+        },
+        {
+         "kase": "Bookable, with reviews · scrolled 4",
+         "en": "shots/guest/en/016-tour-s4.jpg",
+         "ar": "shots/guest/ar/016-tour-s4.jpg"
+        },
+        {
+         "kase": "Bookable, no reviews yet",
+         "en": "shots/guest/en/017-tour-bare.jpg",
+         "ar": "shots/guest/ar/017-tour-bare.jpg"
+        },
+        {
+         "kase": "Bookable, no reviews yet · scrolled 1",
+         "en": "shots/guest/en/017-tour-bare-s1.jpg",
+         "ar": "shots/guest/ar/017-tour-bare-s1.jpg"
+        },
+        {
+         "kase": "Bookable, no reviews yet · scrolled 2",
+         "en": "shots/guest/en/017-tour-bare-s2.jpg",
+         "ar": "shots/guest/ar/017-tour-bare-s2.jpg"
+        },
+        {
+         "kase": "Loading (skeleton)",
+         "en": "shots/guest/en/018-tour-loading.jpg",
+         "ar": "shots/guest/ar/018-tour-loading.jpg"
+        },
+        {
+         "kase": "Tour no longer exists (404)",
+         "en": "shots/guest/en/019-tour-notfound.jpg",
+         "ar": "shots/guest/ar/019-tour-notfound.jpg"
+        },
+        {
+         "kase": "Failed (server error)",
+         "en": "shots/guest/en/020-tour-error.jpg",
+         "ar": "shots/guest/ar/020-tour-error.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Reviews",
+       "route": "/tour-details/qasr-al-watan-royal-journey/reviews",
+       "cases": [
+        {
+         "kase": "With reviews",
+         "en": "shots/guest/en/021-tour-reviews.jpg",
+         "ar": "shots/guest/ar/021-tour-reviews.jpg"
+        },
+        {
+         "kase": "No reviews yet",
+         "en": "shots/guest/en/022-tour-reviews-empty.jpg",
+         "ar": "shots/guest/ar/022-tour-reviews-empty.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Offers, ideas, developers & information",
+     "screens": [
+      {
+       "title": "Today's deals",
+       "route": "/deals",
+       "cases": [
+        {
+         "kase": "Empty (no live deals)",
+         "en": "shots/guest/en/023-deals-empty.jpg",
+         "ar": "shots/guest/ar/023-deals-empty.jpg"
+        },
+        {
+         "kase": "Two live deals",
+         "en": "shots/guest/en/703-deals-filled.jpg",
+         "ar": "shots/guest/ar/703-deals-filled.jpg"
+        },
+        {
+         "kase": "Two live deals · scrolled 1",
+         "en": "shots/guest/en/703-deals-filled-s1.jpg",
+         "ar": "shots/guest/ar/703-deals-filled-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Travel ideas",
+       "route": "/travel-ideas",
+       "cases": [
+        {
+         "kase": "Filled",
+         "en": "shots/guest/en/024-travel-ideas.jpg",
+         "ar": "shots/guest/ar/024-travel-ideas.jpg"
+        },
+        {
+         "kase": "Filled · scrolled 1",
+         "en": "shots/guest/en/024-travel-ideas-s1.jpg",
+         "ar": "shots/guest/ar/024-travel-ideas-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Article",
+       "route": "/travel-ideas/article/what-our-guides-carry",
+       "cases": [
+        {
+         "kase": "Filled",
+         "en": "shots/guest/en/025-article.jpg",
+         "ar": "shots/guest/ar/025-article.jpg"
+        },
+        {
+         "kase": "Filled · scrolled 1",
+         "en": "shots/guest/en/025-article-s1.jpg",
+         "ar": "shots/guest/ar/025-article-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Developers",
+       "route": "/developers",
+       "cases": [
+        {
+         "kase": "Filled",
+         "en": "shots/guest/en/026-developers.jpg",
+         "ar": "shots/guest/ar/026-developers.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Developer details",
+       "route": "/developers/aldar",
+       "cases": [
+        {
+         "kase": "Filled",
+         "en": "shots/guest/en/027-developer.jpg",
+         "ar": "shots/guest/ar/027-developer.jpg"
+        },
+        {
+         "kase": "Filled · scrolled 1",
+         "en": "shots/guest/en/027-developer-s1.jpg",
+         "ar": "shots/guest/ar/027-developer-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Legal document",
+       "route": "/legal/cancellation",
+       "cases": [
+        {
+         "kase": "cancellation",
+         "en": "shots/guest/en/028-legal-cancellation.jpg",
+         "ar": "shots/guest/ar/028-legal-cancellation.jpg"
+        },
+        {
+         "kase": "cancellation · scrolled 1",
+         "en": "shots/guest/en/028-legal-cancellation-s1.jpg",
+         "ar": "shots/guest/ar/028-legal-cancellation-s1.jpg"
+        },
+        {
+         "kase": "privacy",
+         "en": "shots/guest/en/029-legal-privacy.jpg",
+         "ar": "shots/guest/ar/029-legal-privacy.jpg"
+        },
+        {
+         "kase": "privacy · scrolled 1",
+         "en": "shots/guest/en/029-legal-privacy-s1.jpg",
+         "ar": "shots/guest/ar/029-legal-privacy-s1.jpg"
+        },
+        {
+         "kase": "terms",
+         "en": "shots/guest/en/030-legal-terms.jpg",
+         "ar": "shots/guest/ar/030-legal-terms.jpg"
+        },
+        {
+         "kase": "terms · scrolled 1",
+         "en": "shots/guest/en/030-legal-terms-s1.jpg",
+         "ar": "shots/guest/ar/030-legal-terms-s1.jpg"
+        },
+        {
+         "kase": "Not published (404)",
+         "en": "shots/guest/en/031-legal-missing.jpg",
+         "ar": "shots/guest/ar/031-legal-missing.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Offer details",
+       "route": "/deals/offer/deal-1",
+       "cases": [
+        {
+         "kase": "A live deal",
+         "en": "shots/guest/en/704-offer-details.jpg",
+         "ar": "shots/guest/ar/704-offer-details.jpg"
+        },
+        {
+         "kase": "A live deal · scrolled 1",
+         "en": "shots/guest/en/704-offer-details-s1.jpg",
+         "ar": "shots/guest/ar/704-offer-details-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Contact support",
+       "route": "/support",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/guest/en/032-support.jpg",
+         "ar": "shots/guest/ar/032-support.jpg"
+        },
+        {
+         "kase": "Default · scrolled 1",
+         "en": "shots/guest/en/032-support-s1.jpg",
+         "ar": "shots/guest/ar/032-support-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Assistant (chat)",
+       "route": "/assistant",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/guest/en/033-assistant.jpg",
+         "ar": "shots/guest/ar/033-assistant.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Cart, custom tour & the booking path",
+     "screens": [
+      {
+       "title": "Cart",
+       "route": "/cart",
+       "cases": [
+        {
+         "kase": "Empty",
+         "en": "shots/guest/en/034-cart-empty.jpg",
+         "ar": "shots/guest/ar/034-cart-empty.jpg"
+        }
+       ]
+      },
+      {
+       "title": "My Tours",
+       "route": "/my-tours",
+       "cases": [
+        {
+         "kase": "Signed out",
+         "en": "shots/guest/en/035-my-tours-guest.jpg",
+         "ar": "shots/guest/ar/035-my-tours-guest.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Notifications",
+       "route": "/notifications",
+       "cases": [
+        {
+         "kase": "Signed out",
+         "en": "shots/guest/en/036-notifications-guest.jpg",
+         "ar": "shots/guest/ar/036-notifications-guest.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Custom tour — intro",
+       "route": "/custom-tour",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/guest/en/037-custom-intro.jpg",
+         "ar": "shots/guest/ar/037-custom-intro.jpg"
+        },
+        {
+         "kase": "Default · scrolled 1",
+         "en": "shots/guest/en/037-custom-intro-s1.jpg",
+         "ar": "shots/guest/ar/037-custom-intro-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Custom tour — builder, step 1",
+       "route": "/custom-tour/builder",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/guest/en/038-custom-builder.jpg",
+         "ar": "shots/guest/ar/038-custom-builder.jpg"
+        },
+        {
+         "kase": "Default · scrolled 1",
+         "en": "shots/guest/en/038-custom-builder-s1.jpg",
+         "ar": "shots/guest/ar/038-custom-builder-s1.jpg"
+        },
+        {
+         "kase": "Default · scrolled 2",
+         "en": "shots/guest/en/038-custom-builder-s2.jpg",
+         "ar": "shots/guest/ar/038-custom-builder-s2.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Make your own tour — where",
+       "route": "/trip/where",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/guest/en/039-trip-where.jpg",
+         "ar": "shots/guest/ar/039-trip-where.jpg"
+        },
+        {
+         "kase": "Default · scrolled 1",
+         "en": "shots/guest/en/039-trip-where-s1.jpg",
+         "ar": "shots/guest/ar/039-trip-where-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Book now — trip details",
+       "route": "/trip/start/qasr-al-watan-royal-journey",
+       "cases": [
+        {
+         "kase": "Ready-made tour",
+         "en": "shots/guest/en/040-trip-start.jpg",
+         "ar": "shots/guest/ar/040-trip-start.jpg"
+        },
+        {
+         "kase": "Ready-made tour · scrolled 1",
+         "en": "shots/guest/en/040-trip-start-s1.jpg",
+         "ar": "shots/guest/ar/040-trip-start-s1.jpg"
+        },
+        {
+         "kase": "Ready-made tour · scrolled 2",
+         "en": "shots/guest/en/040-trip-start-s2.jpg",
+         "ar": "shots/guest/ar/040-trip-start-s2.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Booking path — Step 2 of 5: Details",
+       "route": "/tour-details/qasr-al-watan-royal-journey",
+       "cases": [
+        {
+         "kase": "Opened from \"Continue as is\" — start time and pick-up still empty",
+         "en": "shots/guest/en/016-trip-flow-guest.jpg",
+         "ar": "shots/guest/ar/016-trip-flow-guest.jpg"
+        },
+        {
+         "kase": "Step 2 — start-time picker open",
+         "en": "shots/guest/en/016-trip-flow-guest-start-picker.jpg",
+         "ar": "shots/guest/ar/016-trip-flow-guest-start-picker.jpg"
+        },
+        {
+         "kase": "Step 2 — scrolled to the pick-up",
+         "en": "shots/guest/en/016-trip-flow-guest-details-s1.jpg",
+         "ar": "shots/guest/ar/016-trip-flow-guest-details-s1.jpg"
+        },
+        {
+         "kase": "Step 2 — pick-up picker (quick picks, search, current location, map pin)",
+         "en": "shots/guest/en/016-trip-flow-guest-pickup-picker.jpg",
+         "ar": "shots/guest/ar/016-trip-flow-guest-pickup-picker.jpg"
+        },
+        {
+         "kase": "Step 2 — complete, button ready",
+         "en": "shots/guest/en/016-trip-flow-guest-details-ready.jpg",
+         "ar": "shots/guest/ar/016-trip-flow-guest-details-ready.jpg"
+        },
+        {
+         "kase": "Step 3 of 5 — Build your day",
+         "en": "shots/guest/en/016-trip-flow-guest-day.jpg",
+         "ar": "shots/guest/ar/016-trip-flow-guest-day.jpg"
+        },
+        {
+         "kase": "Step 3 — scrolled",
+         "en": "shots/guest/en/016-trip-flow-guest-day-s1.jpg",
+         "ar": "shots/guest/ar/016-trip-flow-guest-day-s1.jpg"
+        },
+        {
+         "kase": "Step 4 of 5 — Review",
+         "en": "shots/guest/en/016-trip-flow-guest-review.jpg",
+         "ar": "shots/guest/ar/016-trip-flow-guest-review.jpg"
+        },
+        {
+         "kase": "Step 4 — scrolled",
+         "en": "shots/guest/en/016-trip-flow-guest-review-s1.jpg",
+         "ar": "shots/guest/ar/016-trip-flow-guest-review-s1.jpg"
+        },
+        {
+         "kase": "Step 5 of 5 — Your details (a guest types name, phone and email)",
+         "en": "shots/guest/en/016-trip-flow-guest-pay.jpg",
+         "ar": "shots/guest/ar/016-trip-flow-guest-pay.jpg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "role": "traveller",
+   "sections": [
+    {
+     "title": "Home & the side menu",
+     "screens": [
+      {
+       "title": "Home",
+       "route": "/home",
+       "cases": [
+        {
+         "kase": "Signed in",
+         "en": "shots/traveller/en/001-home.jpg",
+         "ar": "shots/traveller/ar/001-home.jpg"
+        },
+        {
+         "kase": "Signed in · scrolled 1",
+         "en": "shots/traveller/en/001-home-s1.jpg",
+         "ar": "shots/traveller/ar/001-home-s1.jpg"
+        },
+        {
+         "kase": "Signed in · scrolled 2",
+         "en": "shots/traveller/en/001-home-s2.jpg",
+         "ar": "shots/traveller/ar/001-home-s2.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Side menu",
+       "route": "/home",
+       "cases": [
+        {
+         "kase": "Signed in",
+         "en": "shots/traveller/en/801-menu.jpg",
+         "ar": "shots/traveller/ar/801-menu.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Home — filters",
+       "route": "/home",
+       "cases": [
+        {
+         "kase": "Sheet opened from the emirate pill (country, emirate, duration, ratings, area)",
+         "en": "shots/traveller/en/008-home-filters.jpg",
+         "ar": "shots/traveller/ar/008-home-filters.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Edit profile — country picker",
+       "route": "/profile",
+       "cases": [
+        {
+         "kase": "Sheet (dial code)",
+         "en": "shots/traveller/en/011-profile-country.jpg",
+         "ar": "shots/traveller/ar/901-profile-country.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Side menu — send feedback",
+       "route": "/home",
+       "cases": [
+        {
+         "kase": "Sheet",
+         "en": "shots/traveller/en/802-menu-feedback.jpg",
+         "ar": "shots/traveller/ar/802-menu-feedback.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Booking path (a ready-made tour)",
+     "screens": [
+      {
+       "title": "Booking path — Step 2 of 5: Details",
+       "route": "/tour-details/qasr-al-watan-royal-journey",
+       "cases": [
+        {
+         "kase": "Opened from \"Continue as is\" — start time and pick-up still empty",
+         "en": "shots/traveller/en/001-trip-flow.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow.jpg"
+        },
+        {
+         "kase": "Step 2 — start-time picker open",
+         "en": "shots/traveller/en/001-trip-flow-start-picker.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-start-picker.jpg"
+        },
+        {
+         "kase": "Step 2 — scrolled to the pick-up",
+         "en": "shots/traveller/en/001-trip-flow-details-s1.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-details-s1.jpg"
+        },
+        {
+         "kase": "Step 2 — pick-up picker (quick picks, search, current location, map pin)",
+         "en": "shots/traveller/en/001-trip-flow-pickup-picker.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-pickup-picker.jpg"
+        },
+        {
+         "kase": "Step 2 — complete, button ready",
+         "en": "shots/traveller/en/001-trip-flow-details-ready.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-details-ready.jpg"
+        },
+        {
+         "kase": "Step 3 of 5 — Build your day",
+         "en": "shots/traveller/en/001-trip-flow-day.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-day.jpg"
+        },
+        {
+         "kase": "Step 3 — scrolled",
+         "en": "shots/traveller/en/001-trip-flow-day-s1.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-day-s1.jpg"
+        },
+        {
+         "kase": "Step 4 of 5 — Review",
+         "en": "shots/traveller/en/001-trip-flow-review.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-review.jpg"
+        },
+        {
+         "kase": "Step 4 — scrolled",
+         "en": "shots/traveller/en/001-trip-flow-review-s1.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-review-s1.jpg"
+        },
+        {
+         "kase": "Step 5 of 5 — Pay (signed in: name and phone filled)",
+         "en": "shots/traveller/en/001-trip-flow-pay.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-pay.jpg"
+        },
+        {
+         "kase": "Step 5 — payment methods",
+         "en": "shots/traveller/en/001-trip-flow-pay-s1.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-pay-s1.jpg"
+        },
+        {
+         "kase": "Step 5 — card chosen",
+         "en": "shots/traveller/en/001-trip-flow-pay-card.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-pay-card.jpg"
+        },
+        {
+         "kase": "Pay by card — test sheet",
+         "en": "shots/traveller/en/001-trip-flow-card-sheet.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-card-sheet.jpg"
+        },
+        {
+         "kase": "Step 5 — card accepted, ready to confirm",
+         "en": "shots/traveller/en/001-trip-flow-card-saved.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-card-saved.jpg"
+        },
+        {
+         "kase": "Booking confirmed",
+         "en": "shots/traveller/en/001-trip-flow-confirmed.jpg",
+         "ar": "shots/traveller/ar/001-trip-flow-confirmed.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Cart",
+     "screens": [
+      {
+       "title": "Cart",
+       "route": "/home",
+       "cases": [
+        {
+         "kase": "One tour added from a card (date and travellers still missing)",
+         "en": "shots/traveller/en/701-cart-line.jpg",
+         "ar": "shots/traveller/ar/701-cart-line.jpg"
+        },
+        {
+         "kase": "The \"added to cart\" toast",
+         "en": "shots/traveller/en/701-cart-line-toast.jpg",
+         "ar": "shots/traveller/ar/701-cart-line-toast.jpg"
+        },
+        {
+         "kase": "Cart with the line",
+         "en": "shots/traveller/en/701-cart-line-cart.jpg",
+         "ar": "shots/traveller/ar/701-cart-line-cart.jpg"
+        },
+        {
+         "kase": "Cart — scrolled",
+         "en": "shots/traveller/en/701-cart-line-cart-s1.jpg",
+         "ar": "shots/traveller/ar/701-cart-line-cart-s1.jpg"
+        },
+        {
+         "kase": "Checkout (the cart’s own pay screen)",
+         "en": "shots/traveller/en/701-cart-line-checkout.jpg",
+         "ar": "shots/traveller/ar/701-cart-line-checkout.jpg"
+        },
+        {
+         "kase": "Checkout — scrolled",
+         "en": "shots/traveller/en/701-cart-line-checkout-s1.jpg",
+         "ar": "shots/traveller/ar/701-cart-line-checkout-s1.jpg"
+        },
+        {
+         "kase": "“Add details” on the cart line",
+         "en": "shots/traveller/en/701-cart-line-cart-details.jpg",
+         "ar": "shots/traveller/ar/701-cart-line-cart-details.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "My Tours",
+     "screens": [
+      {
+       "title": "My Tours — Upcoming",
+       "route": "/my-tours",
+       "cases": [
+        {
+         "kase": "Three trips (one with an open change request, one past its cancellation window)",
+         "en": "shots/traveller/en/004-my-tours.jpg",
+         "ar": "shots/traveller/ar/004-my-tours.jpg"
+        },
+        {
+         "kase": "Three trips (one with an open change request, one past its cancellation window) · scrolled 1",
+         "en": "shots/traveller/en/004-my-tours-s1.jpg",
+         "ar": "shots/traveller/ar/004-my-tours-s1.jpg"
+        },
+        {
+         "kase": "Three trips (one with an open change request, one past its cancellation window) · scrolled 2",
+         "en": "shots/traveller/en/004-my-tours-s2.jpg",
+         "ar": "shots/traveller/ar/004-my-tours-s2.jpg"
+        },
+        {
+         "kase": "Empty (no bookings yet)",
+         "en": "shots/traveller/en/007-my-tours-empty.jpg",
+         "ar": "shots/traveller/ar/007-my-tours-empty.jpg"
+        }
+       ]
+      },
+      {
+       "title": "My Tours — Completed",
+       "route": "/my-tours?tab=completed",
+       "cases": [
+        {
+         "kase": "A rated-able trip and a cancelled one",
+         "en": "shots/traveller/en/005-my-tours-completed.jpg",
+         "ar": "shots/traveller/ar/005-my-tours-completed.jpg"
+        },
+        {
+         "kase": "A rated-able trip and a cancelled one · scrolled 1",
+         "en": "shots/traveller/en/005-my-tours-completed-s1.jpg",
+         "ar": "shots/traveller/ar/005-my-tours-completed-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "My Tours — Saved",
+       "route": "/my-tours?tab=saved",
+       "cases": [
+        {
+         "kase": "Two saved tours",
+         "en": "shots/traveller/en/006-my-tours-saved.jpg",
+         "ar": "shots/traveller/ar/006-my-tours-saved.jpg"
+        },
+        {
+         "kase": "Two saved tours · scrolled 1",
+         "en": "shots/traveller/en/006-my-tours-saved-s1.jpg",
+         "ar": "shots/traveller/ar/006-my-tours-saved-s1.jpg"
+        },
+        {
+         "kase": "Empty (nothing saved)",
+         "en": "shots/traveller/en/008-my-tours-saved-empty.jpg",
+         "ar": "shots/traveller/ar/008-my-tours-saved-empty.jpg"
+        }
+       ]
+      },
+      {
+       "title": "My Tours",
+       "route": "/my-tours",
+       "cases": [
+        {
+         "kase": "Loading (skeleton)",
+         "en": "shots/traveller/en/009-my-tours-loading.jpg",
+         "ar": "shots/traveller/ar/009-my-tours-loading.jpg"
+        },
+        {
+         "kase": "Failed (server error)",
+         "en": "shots/traveller/en/010-my-tours-error.jpg",
+         "ar": "shots/traveller/ar/010-my-tours-error.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "One booking",
+     "screens": [
+      {
+       "title": "Booking details",
+       "route": "/my-tours/booking/BK-1001",
+       "cases": [
+        {
+         "kase": "Upcoming, can still be cancelled or changed",
+         "en": "shots/traveller/en/011-booking-upcoming.jpg",
+         "ar": "shots/traveller/ar/011-booking-upcoming.jpg"
+        },
+        {
+         "kase": "Upcoming, can still be cancelled or changed · scrolled 1",
+         "en": "shots/traveller/en/011-booking-upcoming-s1.jpg",
+         "ar": "shots/traveller/ar/011-booking-upcoming-s1.jpg"
+        },
+        {
+         "kase": "Upcoming, can still be cancelled or changed · scrolled 2",
+         "en": "shots/traveller/en/011-booking-upcoming-s2.jpg",
+         "ar": "shots/traveller/ar/011-booking-upcoming-s2.jpg"
+        },
+        {
+         "kase": "Upcoming, inside the cancellation window (no Cancel)",
+         "en": "shots/traveller/en/012-booking-closed.jpg",
+         "ar": "shots/traveller/ar/012-booking-closed.jpg"
+        },
+        {
+         "kase": "Upcoming, inside the cancellation window (no Cancel) · scrolled 1",
+         "en": "shots/traveller/en/012-booking-closed-s1.jpg",
+         "ar": "shots/traveller/ar/012-booking-closed-s1.jpg"
+        },
+        {
+         "kase": "Upcoming, inside the cancellation window (no Cancel) · scrolled 2",
+         "en": "shots/traveller/en/012-booking-closed-s2.jpg",
+         "ar": "shots/traveller/ar/012-booking-closed-s2.jpg"
+        },
+        {
+         "kase": "In progress",
+         "en": "shots/traveller/en/013-booking-live.jpg",
+         "ar": "shots/traveller/ar/013-booking-live.jpg"
+        },
+        {
+         "kase": "In progress · scrolled 1",
+         "en": "shots/traveller/en/013-booking-live-s1.jpg",
+         "ar": "shots/traveller/ar/013-booking-live-s1.jpg"
+        },
+        {
+         "kase": "In progress · scrolled 2",
+         "en": "shots/traveller/en/013-booking-live-s2.jpg",
+         "ar": "shots/traveller/ar/013-booking-live-s2.jpg"
+        },
+        {
+         "kase": "Completed",
+         "en": "shots/traveller/en/014-booking-completed.jpg",
+         "ar": "shots/traveller/ar/014-booking-completed.jpg"
+        },
+        {
+         "kase": "Completed · scrolled 1",
+         "en": "shots/traveller/en/014-booking-completed-s1.jpg",
+         "ar": "shots/traveller/ar/014-booking-completed-s1.jpg"
+        },
+        {
+         "kase": "Completed · scrolled 2",
+         "en": "shots/traveller/en/014-booking-completed-s2.jpg",
+         "ar": "shots/traveller/ar/014-booking-completed-s2.jpg"
+        },
+        {
+         "kase": "Cancelled",
+         "en": "shots/traveller/en/015-booking-cancelled.jpg",
+         "ar": "shots/traveller/ar/015-booking-cancelled.jpg"
+        },
+        {
+         "kase": "Cancelled · scrolled 1",
+         "en": "shots/traveller/en/015-booking-cancelled-s1.jpg",
+         "ar": "shots/traveller/ar/015-booking-cancelled-s1.jpg"
+        },
+        {
+         "kase": "Cancelled · scrolled 2",
+         "en": "shots/traveller/en/015-booking-cancelled-s2.jpg",
+         "ar": "shots/traveller/ar/015-booking-cancelled-s2.jpg"
+        },
+        {
+         "kase": "The desk changed it — waiting for the traveller",
+         "en": "shots/traveller/en/016-booking-pending.jpg",
+         "ar": "shots/traveller/ar/016-booking-pending.jpg"
+        },
+        {
+         "kase": "The desk changed it — waiting for the traveller · scrolled 1",
+         "en": "shots/traveller/en/016-booking-pending-s1.jpg",
+         "ar": "shots/traveller/ar/016-booking-pending-s1.jpg"
+        },
+        {
+         "kase": "The desk changed it — waiting for the traveller · scrolled 2",
+         "en": "shots/traveller/en/016-booking-pending-s2.jpg",
+         "ar": "shots/traveller/ar/016-booking-pending-s2.jpg"
+        },
+        {
+         "kase": "Reference not found",
+         "en": "shots/traveller/en/017-booking-missing.jpg",
+         "ar": "shots/traveller/ar/017-booking-missing.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Change tour date",
+       "route": "/my-tours/change/BK-1001",
+       "cases": [
+        {
+         "kase": "Self-service allowed",
+         "en": "shots/traveller/en/018-change-date.jpg",
+         "ar": "shots/traveller/ar/018-change-date.jpg"
+        },
+        {
+         "kase": "Self-service allowed · scrolled 1",
+         "en": "shots/traveller/en/018-change-date-s1.jpg",
+         "ar": "shots/traveller/ar/018-change-date-s1.jpg"
+        },
+        {
+         "kase": "Self-service allowed · scrolled 2",
+         "en": "shots/traveller/en/018-change-date-s2.jpg",
+         "ar": "shots/traveller/ar/018-change-date-s2.jpg"
+        },
+        {
+         "kase": "Not changeable (refused with a reason)",
+         "en": "shots/traveller/en/019-change-date-refused.jpg",
+         "ar": "shots/traveller/ar/019-change-date-refused.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Review a change made by the desk",
+       "route": "/my-tours/review-change/BK-1010",
+       "cases": [
+        {
+         "kase": "Pending — pay the difference",
+         "en": "shots/traveller/en/020-desk-change.jpg",
+         "ar": "shots/traveller/ar/020-desk-change.jpg"
+        },
+        {
+         "kase": "Pending — pay the difference · scrolled 1",
+         "en": "shots/traveller/en/020-desk-change-s1.jpg",
+         "ar": "shots/traveller/ar/020-desk-change-s1.jpg"
+        },
+        {
+         "kase": "Pending — refund due",
+         "en": "shots/traveller/en/021-desk-change-refund.jpg",
+         "ar": "shots/traveller/ar/021-desk-change-refund.jpg"
+        },
+        {
+         "kase": "Already answered",
+         "en": "shots/traveller/en/022-desk-change-done.jpg",
+         "ar": "shots/traveller/ar/022-desk-change-done.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Rate your trip",
+       "route": "/my-tours/rate/BK-0990",
+       "cases": [
+        {
+         "kase": "Two places to rate (one already rated)",
+         "en": "shots/traveller/en/701-rate.jpg",
+         "ar": "shots/traveller/ar/701-rate.jpg"
+        },
+        {
+         "kase": "Two places to rate (one already rated) · scrolled 1",
+         "en": "shots/traveller/en/701-rate-s1.jpg",
+         "ar": "shots/traveller/ar/701-rate-s1.jpg"
+        },
+        {
+         "kase": "Nothing to rate",
+         "en": "shots/traveller/en/702-rate-empty.jpg",
+         "ar": "shots/traveller/ar/702-rate-empty.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Tour cancellation — what would you like to adjust?",
+       "route": "/my-tours/booking/BK-1001",
+       "cases": [
+        {
+         "kase": "Menu: change date / adjust passengers / cancel",
+         "en": "shots/traveller/en/003-cancel-flow.jpg",
+         "ar": "shots/traveller/ar/003-cancel-flow.jpg"
+        },
+        {
+         "kase": "Why are you cancelling?",
+         "en": "shots/traveller/en/003-cancel-flow-reason.jpg",
+         "ar": "shots/traveller/ar/003-cancel-flow-reason.jpg"
+        },
+        {
+         "kase": "A reason chosen",
+         "en": "shots/traveller/en/003-cancel-flow-reason-picked.jpg",
+         "ar": "shots/traveller/ar/003-cancel-flow-reason-picked.jpg"
+        },
+        {
+         "kase": "Refund summary (a sheet over the reason step)",
+         "en": "shots/traveller/en/003-cancel-flow-summary.jpg",
+         "ar": "shots/traveller/ar/003-cancel-flow-summary.jpg"
+        },
+        {
+         "kase": "Cancelled — confirmation",
+         "en": "shots/traveller/en/003-cancel-flow-done.jpg",
+         "ar": "shots/traveller/ar/003-cancel-flow-done.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Tour cancellation — refund summary",
+       "route": "/my-tours/booking/BK-1001",
+       "cases": [
+        {
+         "kase": "Inside the fee window (part refunded)",
+         "en": "shots/traveller/en/004-cancel-fee.jpg",
+         "ar": "shots/traveller/ar/004-cancel-fee.jpg"
+        },
+        {
+         "kase": "Cannot be cancelled any more (with the reason)",
+         "en": "shots/traveller/en/005-cancel-refused.jpg",
+         "ar": "shots/traveller/ar/005-cancel-refused.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "During a trip",
+     "screens": [
+      {
+       "title": "Live progress",
+       "route": "/my-tours/progress/BK-1003",
+       "cases": [
+        {
+         "kase": "Running — vehicle position live",
+         "en": "shots/traveller/en/024-live-running.jpg",
+         "ar": "shots/traveller/ar/024-live-running.jpg"
+        },
+        {
+         "kase": "Running — vehicle position live · scrolled 1",
+         "en": "shots/traveller/en/024-live-running-s1.jpg",
+         "ar": "shots/traveller/ar/024-live-running-s1.jpg"
+        },
+        {
+         "kase": "Running — position is old (stale)",
+         "en": "shots/traveller/en/025-live-stale.jpg",
+         "ar": "shots/traveller/ar/025-live-stale.jpg"
+        },
+        {
+         "kase": "Running — position is old (stale) · scrolled 1",
+         "en": "shots/traveller/en/025-live-stale-s1.jpg",
+         "ar": "shots/traveller/ar/025-live-stale-s1.jpg"
+        },
+        {
+         "kase": "Running — no position yet",
+         "en": "shots/traveller/en/026-live-no-position.jpg",
+         "ar": "shots/traveller/ar/026-live-no-position.jpg"
+        },
+        {
+         "kase": "Running — no position yet · scrolled 1",
+         "en": "shots/traveller/en/026-live-no-position-s1.jpg",
+         "ar": "shots/traveller/ar/026-live-no-position-s1.jpg"
+        },
+        {
+         "kase": "Not started yet",
+         "en": "shots/traveller/en/027-live-scheduled.jpg",
+         "ar": "shots/traveller/ar/027-live-scheduled.jpg"
+        },
+        {
+         "kase": "Not started yet · scrolled 1",
+         "en": "shots/traveller/en/027-live-scheduled-s1.jpg",
+         "ar": "shots/traveller/ar/027-live-scheduled-s1.jpg"
+        },
+        {
+         "kase": "Finished",
+         "en": "shots/traveller/en/028-live-finished.jpg",
+         "ar": "shots/traveller/ar/028-live-finished.jpg"
+        },
+        {
+         "kase": "Finished · scrolled 1",
+         "en": "shots/traveller/en/028-live-finished-s1.jpg",
+         "ar": "shots/traveller/ar/028-live-finished-s1.jpg"
+        },
+        {
+         "kase": "Running — extended by 30 min",
+         "en": "shots/traveller/en/029-live-late.jpg",
+         "ar": "shots/traveller/ar/029-live-late.jpg"
+        },
+        {
+         "kase": "Running — extended by 30 min · scrolled 1",
+         "en": "shots/traveller/en/029-live-late-s1.jpg",
+         "ar": "shots/traveller/ar/029-live-late-s1.jpg"
+        },
+        {
+         "kase": "A problem was reported",
+         "en": "shots/traveller/en/030-live-problem.jpg",
+         "ar": "shots/traveller/ar/030-live-problem.jpg"
+        },
+        {
+         "kase": "A problem was reported · scrolled 1",
+         "en": "shots/traveller/en/030-live-problem-s1.jpg",
+         "ar": "shots/traveller/ar/030-live-problem-s1.jpg"
+        },
+        {
+         "kase": "A safety alert is open",
+         "en": "shots/traveller/en/031-live-safety.jpg",
+         "ar": "shots/traveller/ar/031-live-safety.jpg"
+        },
+        {
+         "kase": "A safety alert is open · scrolled 1",
+         "en": "shots/traveller/en/031-live-safety-s1.jpg",
+         "ar": "shots/traveller/ar/031-live-safety-s1.jpg"
+        },
+        {
+         "kase": "Failed to load",
+         "en": "shots/traveller/en/032-live-error.jpg",
+         "ar": "shots/traveller/ar/032-live-error.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Safety Trigger",
+       "route": "/my-tours/progress/BK-1003",
+       "cases": [
+        {
+         "kase": "First press — confirm sheet",
+         "en": "shots/traveller/en/006-live-safety-sheet.jpg",
+         "ar": "shots/traveller/ar/006-live-safety-sheet.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Report a problem",
+       "route": "/my-tours/progress/BK-1003",
+       "cases": [
+        {
+         "kase": "Sheet with reasons",
+         "en": "shots/traveller/en/007-live-problem-sheet.jpg",
+         "ar": "shots/traveller/ar/007-live-problem-sheet.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Account & settings",
+     "screens": [
+      {
+       "title": "Edit profile",
+       "route": "/profile",
+       "cases": [
+        {
+         "kase": "Filled",
+         "en": "shots/traveller/en/033-profile.jpg",
+         "ar": "shots/traveller/ar/033-profile.jpg"
+        },
+        {
+         "kase": "Filled · scrolled 1",
+         "en": "shots/traveller/en/033-profile-s1.jpg",
+         "ar": "shots/traveller/ar/033-profile-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Change password",
+       "route": "/profile/change-password",
+       "cases": [
+        {
+         "kase": "Empty",
+         "en": "shots/traveller/en/034-change-password.jpg",
+         "ar": "shots/traveller/ar/034-change-password.jpg"
+        },
+        {
+         "kase": "Empty · scrolled 1",
+         "en": "shots/traveller/en/034-change-password-s1.jpg",
+         "ar": "shots/traveller/ar/034-change-password-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Settings",
+       "route": "/settings",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/traveller/en/035-settings.jpg",
+         "ar": "shots/traveller/ar/035-settings.jpg"
+        },
+        {
+         "kase": "Default · scrolled 1",
+         "en": "shots/traveller/en/035-settings-s1.jpg",
+         "ar": "shots/traveller/ar/035-settings-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Loyalty",
+       "route": "/loyalty",
+       "cases": [
+        {
+         "kase": "Silver, two tours to Gold",
+         "en": "shots/traveller/en/036-loyalty.jpg",
+         "ar": "shots/traveller/ar/036-loyalty.jpg"
+        },
+        {
+         "kase": "Silver, two tours to Gold · scrolled 1",
+         "en": "shots/traveller/en/036-loyalty-s1.jpg",
+         "ar": "shots/traveller/ar/036-loyalty-s1.jpg"
+        },
+        {
+         "kase": "No tier yet",
+         "en": "shots/traveller/en/037-loyalty-new.jpg",
+         "ar": "shots/traveller/ar/037-loyalty-new.jpg"
+        },
+        {
+         "kase": "Platinum (top tier)",
+         "en": "shots/traveller/en/038-loyalty-top.jpg",
+         "ar": "shots/traveller/ar/038-loyalty-top.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Refer a friend",
+       "route": "/referral",
+       "cases": [
+        {
+         "kase": "Two invitations, one reward",
+         "en": "shots/traveller/en/039-referral.jpg",
+         "ar": "shots/traveller/ar/039-referral.jpg"
+        },
+        {
+         "kase": "Two invitations, one reward · scrolled 1",
+         "en": "shots/traveller/en/039-referral-s1.jpg",
+         "ar": "shots/traveller/ar/039-referral-s1.jpg"
+        },
+        {
+         "kase": "No invitations yet",
+         "en": "shots/traveller/en/040-referral-empty.jpg",
+         "ar": "shots/traveller/ar/040-referral-empty.jpg"
+        }
+       ]
+      },
+      {
+       "title": "My custom tour requests",
+       "route": "/custom-requests",
+       "cases": [
+        {
+         "kase": "One priced, one waiting",
+         "en": "shots/traveller/en/041-custom-requests.jpg",
+         "ar": "shots/traveller/ar/041-custom-requests.jpg"
+        },
+        {
+         "kase": "One priced, one waiting · scrolled 1",
+         "en": "shots/traveller/en/041-custom-requests-s1.jpg",
+         "ar": "shots/traveller/ar/041-custom-requests-s1.jpg"
+        },
+        {
+         "kase": "Empty",
+         "en": "shots/traveller/en/042-custom-requests-empty.jpg",
+         "ar": "shots/traveller/ar/042-custom-requests-empty.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Data sharing consent",
+       "route": "/data-sharing",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/traveller/en/043-data-sharing.jpg",
+         "ar": "shots/traveller/ar/043-data-sharing.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Marketing preferences",
+       "route": "/marketing",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/traveller/en/044-marketing.jpg",
+         "ar": "shots/traveller/ar/044-marketing.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Delete my data",
+       "route": "/delete-my-data",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/traveller/en/045-delete-my-data.jpg",
+         "ar": "shots/traveller/ar/045-delete-my-data.jpg"
+        },
+        {
+         "kase": "Default · scrolled 1",
+         "en": "shots/traveller/en/045-delete-my-data-s1.jpg",
+         "ar": "shots/traveller/ar/045-delete-my-data-s1.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Notifications & activity",
+     "screens": [
+      {
+       "title": "Notifications",
+       "route": "/notifications",
+       "cases": [
+        {
+         "kase": "Five, three unread",
+         "en": "shots/traveller/en/046-notifications.jpg",
+         "ar": "shots/traveller/ar/046-notifications.jpg"
+        },
+        {
+         "kase": "Five, three unread · scrolled 1",
+         "en": "shots/traveller/en/046-notifications-s1.jpg",
+         "ar": "shots/traveller/ar/046-notifications-s1.jpg"
+        },
+        {
+         "kase": "Empty",
+         "en": "shots/traveller/en/047-notifications-empty.jpg",
+         "ar": "shots/traveller/ar/047-notifications-empty.jpg"
+        },
+        {
+         "kase": "Failed to load",
+         "en": "shots/traveller/en/048-notifications-error.jpg",
+         "ar": "shots/traveller/ar/048-notifications-error.jpg"
+        }
+       ]
+      },
+      {
+       "title": "My activity",
+       "route": "/activity",
+       "cases": [
+        {
+         "kase": "Bookings and requests",
+         "en": "shots/traveller/en/049-activity.jpg",
+         "ar": "shots/traveller/ar/049-activity.jpg"
+        },
+        {
+         "kase": "Bookings and requests · scrolled 1",
+         "en": "shots/traveller/en/049-activity-s1.jpg",
+         "ar": "shots/traveller/ar/049-activity-s1.jpg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "role": "crew",
+   "sections": [
+    {
+     "title": "Today",
+     "screens": [
+      {
+       "title": "Today (crew home)",
+       "route": "/staff",
+       "cases": [
+        {
+         "kase": "A trip running, one offer, one later, one finished",
+         "en": "shots/crew/en/001-today.jpg",
+         "ar": "shots/crew/ar/001-today.jpg"
+        },
+        {
+         "kase": "A trip running, one offer, one later, one finished · scrolled 1",
+         "en": "shots/crew/en/001-today-s1.jpg",
+         "ar": "shots/crew/ar/001-today-s1.jpg"
+        },
+        {
+         "kase": "A trip running, one offer, one later, one finished · scrolled 2",
+         "en": "shots/crew/en/001-today-s2.jpg",
+         "ar": "shots/crew/ar/001-today-s2.jpg"
+        },
+        {
+         "kase": "No offer waiting",
+         "en": "shots/crew/en/002-today-nooffer.jpg",
+         "ar": "shots/crew/ar/002-today-nooffer.jpg"
+        },
+        {
+         "kase": "No offer waiting · scrolled 1",
+         "en": "shots/crew/en/002-today-nooffer-s1.jpg",
+         "ar": "shots/crew/ar/002-today-nooffer-s1.jpg"
+        },
+        {
+         "kase": "Nothing assigned today",
+         "en": "shots/crew/en/003-today-empty.jpg",
+         "ar": "shots/crew/ar/003-today-empty.jpg"
+        },
+        {
+         "kase": "Loading",
+         "en": "shots/crew/en/004-today-loading.jpg",
+         "ar": "shots/crew/ar/004-today-loading.jpg"
+        },
+        {
+         "kase": "Failed to load",
+         "en": "shots/crew/en/005-today-error.jpg",
+         "ar": "shots/crew/ar/005-today-error.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Decline an offered departure",
+       "route": "/staff",
+       "cases": [
+        {
+         "kase": "Sheet: why can’t you take it?",
+         "en": "shots/crew/en/601-today-decline.jpg",
+         "ar": "shots/crew/ar/601-today-decline.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Crew menu",
+       "route": "/staff",
+       "cases": [
+        {
+         "kase": "Side menu",
+         "en": "shots/crew/en/801-menu.jpg",
+         "ar": "shots/crew/ar/801-menu.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "One trip (assignment)",
+     "screens": [
+      {
+       "title": "Trip — before departure",
+       "route": "/staff/asg-2",
+       "cases": [
+        {
+         "kase": "Scheduled",
+         "en": "shots/crew/en/007-trip-scheduled.jpg",
+         "ar": "shots/crew/ar/007-trip-scheduled.jpg"
+        },
+        {
+         "kase": "Scheduled · scrolled 1",
+         "en": "shots/crew/en/007-trip-scheduled-s1.jpg",
+         "ar": "shots/crew/ar/007-trip-scheduled-s1.jpg"
+        },
+        {
+         "kase": "Scheduled · scrolled 2",
+         "en": "shots/crew/en/007-trip-scheduled-s2.jpg",
+         "ar": "shots/crew/ar/007-trip-scheduled-s2.jpg"
+        },
+        {
+         "kase": "Scheduled · scrolled 3",
+         "en": "shots/crew/en/007-trip-scheduled-s3.jpg",
+         "ar": "shots/crew/ar/007-trip-scheduled-s3.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Trip",
+       "route": "/staff/asg-1",
+       "cases": [
+        {
+         "kase": "Loading",
+         "en": "shots/crew/en/010-trip-loading.jpg",
+         "ar": "shots/crew/ar/010-trip-loading.jpg"
+        },
+        {
+         "kase": "Assignment not found",
+         "en": "shots/crew/en/011-trip-notfound.jpg",
+         "ar": "shots/crew/ar/011-trip-notfound.jpg"
+        },
+        {
+         "kase": "Cancelled by operations",
+         "en": "shots/crew/en/012-trip-cancelled.jpg",
+         "ar": "shots/crew/ar/012-trip-cancelled.jpg"
+        },
+        {
+         "kase": "Missed (nobody started it)",
+         "en": "shots/crew/en/013-trip-missed.jpg",
+         "ar": "shots/crew/ar/013-trip-missed.jpg"
+        },
+        {
+         "kase": "A second car is added",
+         "en": "shots/crew/en/014-trip-secondcar.jpg",
+         "ar": "shots/crew/ar/014-trip-secondcar.jpg"
+        },
+        {
+         "kase": "A second car is added · scrolled 1",
+         "en": "shots/crew/en/014-trip-secondcar-s1.jpg",
+         "ar": "shots/crew/ar/014-trip-secondcar-s1.jpg"
+        },
+        {
+         "kase": "Travellers want different stop orders",
+         "en": "shots/crew/en/705-trip-order-differs.jpg",
+         "ar": "shots/crew/ar/705-trip-order-differs.jpg"
+        },
+        {
+         "kase": "Travellers want different stop orders · scrolled 1",
+         "en": "shots/crew/en/705-trip-order-differs-s1.jpg",
+         "ar": "shots/crew/ar/705-trip-order-differs-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Safety Trigger (crew)",
+       "route": "/staff/asg-1",
+       "cases": [
+        {
+         "kase": "Confirm sheet",
+         "en": "shots/crew/en/701-trip-safety-sheet.jpg",
+         "ar": "shots/crew/ar/701-trip-safety-sheet.jpg"
+        }
+       ]
+      },
+      {
+       "title": "End tour → closure recap",
+       "route": "/staff/asg-1",
+       "cases": [
+        {
+         "kase": "How did the trip go?",
+         "en": "shots/crew/en/702-trip-end-recap.jpg",
+         "ar": "shots/crew/ar/702-trip-end-recap.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Trip — on the road",
+       "route": "/staff/asg-1",
+       "cases": [
+        {
+         "kase": "Running, at stop 3",
+         "en": "shots/crew/en/703-trip-running.jpg",
+         "ar": "shots/crew/ar/703-trip-running.jpg"
+        },
+        {
+         "kase": "Running, at stop 3 · scrolled 1",
+         "en": "shots/crew/en/703-trip-running-s1.jpg",
+         "ar": "shots/crew/ar/703-trip-running-s1.jpg"
+        },
+        {
+         "kase": "Running, at stop 3 · scrolled 2",
+         "en": "shots/crew/en/703-trip-running-s2.jpg",
+         "ar": "shots/crew/ar/703-trip-running-s2.jpg"
+        },
+        {
+         "kase": "Running, at stop 3 · scrolled 3",
+         "en": "shots/crew/en/703-trip-running-s3.jpg",
+         "ar": "shots/crew/ar/703-trip-running-s3.jpg"
+        },
+        {
+         "kase": "Running, location permission blocked on the phone",
+         "en": "shots/crew/en/016-trip-running-nogeo.jpg",
+         "ar": "shots/crew/ar/016-trip-running-nogeo.jpg"
+        },
+        {
+         "kase": "Running, location permission blocked on the phone · scrolled 1",
+         "en": "shots/crew/en/016-trip-running-nogeo-s1.jpg",
+         "ar": "shots/crew/ar/016-trip-running-nogeo-s1.jpg"
+        }
+       ]
+      },
+      {
+       "title": "Trip — done",
+       "route": "/staff/asg-3",
+       "cases": [
+        {
+         "kase": "Finished",
+         "en": "shots/crew/en/704-trip-finished.jpg",
+         "ar": "shots/crew/ar/704-trip-finished.jpg"
+        },
+        {
+         "kase": "Finished · scrolled 1",
+         "en": "shots/crew/en/704-trip-finished-s1.jpg",
+         "ar": "shots/crew/ar/704-trip-finished-s1.jpg"
+        },
+        {
+         "kase": "Finished · scrolled 2",
+         "en": "shots/crew/en/704-trip-finished-s2.jpg",
+         "ar": "shots/crew/ar/704-trip-finished-s2.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Crew account",
+     "screens": [
+      {
+       "title": "Crew settings",
+       "route": "/staff/settings",
+       "cases": [
+        {
+         "kase": "Default",
+         "en": "shots/crew/en/017-settings.jpg",
+         "ar": "shots/crew/ar/017-settings.jpg"
+        },
+        {
+         "kase": "Default · scrolled 1",
+         "en": "shots/crew/en/017-settings-s1.jpg",
+         "ar": "shots/crew/ar/017-settings-s1.jpg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "missingPair": [],
+ "unmocked": [
+  "guest: POST /api/tours/qasr-al-watan-royal-journey/view",
+  "guest: POST /api/routing/path",
+  "guest: POST /api/tours/dunes-to-downtown/view",
+  "guest: POST /api/tours/a-tour-that-was-removed/view",
+  "guest: POST /api/pricing/estimate",
+  "guest: POST /api/auth/customer/verify",
+  "guest: POST /api/customers/me/basket/merge",
+  "guest: POST /api/auth/customer/forgot-password",
+  "guest: POST /api/bookings/quote",
+  "traveller: GET /api/customers/me/resume",
+  "traveller: POST /api/customers/me/bookings/BK-1003/share",
+  "traveller: POST /api/customers/me/bookings/BK-1002/share",
+  "traveller: GET /api/customers/me/bookings/BK-0990/digest",
+  "traveller: POST /api/customers/me/bookings/BK-1001/share",
+  "traveller: POST /api/customers/me/bookings/BK-0981/share",
+  "traveller: POST /api/customers/me/bookings/BK-1010/share",
+  "traveller: GET /api/customers/me/erasure-request",
+  "traveller: POST /api/tours/qasr-al-watan-royal-journey/view",
+  "traveller: POST /api/bookings/quote",
+  "traveller: PUT /api/basket",
+  "traveller: POST /api/basket/lines",
+  "traveller: DELETE /api/basket",
+  "crew: GET /api/staff/me/assignments/asg-2/safety-incidents",
+  "crew: GET /api/staff/me/assignments/asg-1/safety-incidents",
+  "crew: POST /api/staff/me/assignments/asg-1/position",
+  "crew: GET /api/staff/me/assignments/asg-3/safety-incidents",
+  "crew: GET /api/staff/me/assignments/asg-404",
+  "crew: GET /api/staff/me/assignments/asg-1/conduct-ratings"
+ ]
+}
